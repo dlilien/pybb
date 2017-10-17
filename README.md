@@ -6,7 +6,7 @@ Learn some (very) basic Python, hopefully get sold on the language! Learn (very)
 
 #### Python(3) via anaconda
 
-Please try to install python, numpy, scipy, and matplotlib before coming. There is a good chance you already have python, but I recommend getting a clean, upgradable install via anaconda (which will include the other packages). Anaconda will include everything you need for all the demos I’ll run/everything posted [here](https://www.anaconda.com/download/).
+Please try to install python, numpy, scipy, and matplotlib before coming. There is a good chance you already have python, but I recommend getting a clean, upgradable install via anaconda (which will include the other packages). Anaconda will include everything you need for all the demos I’ll run/everything I've posted. [Get Anaconda](https://www.anaconda.com/download/).
 
 #### git
 
@@ -24,3 +24,16 @@ I'll walk you through this on Friday, but if you want to try out git you can clo
 then run
 ``git clone https://github.com/dlilien/pybb.git python_brownbag``
 You can probably see a big green button in the upper-right corner of this webpage that could help you if I screwed up and that failed.
+
+## Slides
+
+I've broken up the presentation portion of the brownbag into two chunks, one that is something like [Python vs Matlab](/presentations/python_v_matlab.pdf) and one on some basic [command line/git use](/presentations/commandline_git.pdf) to help you get started with the demos here.
+
+## Demos
+
+There are a couple notebooks that should be viewable on github [here](/notebooks/basic_python.ipynb) and [here](/notebooks/numpy_scipy_and_matplotlib.ipynb). If you have cloned this repository, you can run them yourself! Do
+```
+cd presentations
+jupyter notebook
+```
+you should then be able to open each of these files and run through them on the jupyter server.
