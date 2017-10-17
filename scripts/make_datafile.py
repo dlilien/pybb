@@ -18,7 +18,7 @@ def line_function(x, slope=0.7, intercept=0.1):
 
 
 y_noise_level = 0.2
-x_noise_level = 0.02
+x_noise_level = 0.05
 size = 50
 
 x = np.random.rand(size)
